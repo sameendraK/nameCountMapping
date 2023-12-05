@@ -1,5 +1,9 @@
 # NameCountTable
-
+This project takes a dataset and gives the number of times a 'property' is repeated and based on the number, if it is in the range:
+1. 0-2: Displays in RED color.
+2. 3-10: Displays in Yellow color.
+3. 10+ : Displays in Green color.
+4. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
 ## Development server
