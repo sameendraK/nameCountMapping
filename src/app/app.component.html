@@ -1,0 +1,16 @@
+<div class="main-container">
+  <table class = "table-container">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Count</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let record of resultsToShow">
+      <tr [ngClass]="{'red':record.count<=2,'yellow':record.count>2&&record.count<=10,'green':record.count>10}">
+        <td>{{record.name}}</td>
+        <td>{{record.count}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
