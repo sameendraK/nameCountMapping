@@ -3,7 +3,7 @@ This project takes a dataset and gives the number of times a 'property' is repea
 1. 0-2: Displays in RED color.
 2. 3-10: Displays in Yellow color.
 3. 10+ : Displays in Green color.
-   
+This is the stackblitz link for reference: https://stackblitz.com/edit/stackblitz-starters-rues73?file=src%2Fglobal_styles.css 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
 ## Development server
